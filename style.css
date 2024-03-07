@@ -1,128 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
+*{padding:0; margin: 0; box-sizing: border-box;}
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;*/
+/*font-family: 'Averia Serif Libre', cursive;*/
+/*font-family: 'Dancing Script', cursive;*/
+header{
     width: 100%;
-    padding: 30px 100px;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-size: cover;
+    color::after ;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background: rgb(151, 26, 151);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;*/
 }
-.logo {
-    font-size: 2em;
-    color: #555;
-    cursor: default;
+.logo{
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
 }
-.logo span {
-    color: #7d2ae8;
-}
-.navigation {
-    margin-left: -300px;
-}
-.navigation a {
-    font-size: 1.1em;
-    color: #555;
+.menu a{
     text-decoration: none;
-    margin-right: 40px;
-    font-weight: 500;
-    transition: .3s;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: Semi-bold;
+    padding: 0.5rem 1rem;
 }
-.navigation a:hover {
-    color: #7d2ae8;
+.menu a:nth-child(5){
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 0 1rem;
 }
-.btn-talk {
-    color: #fff;
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: #ffffff;
+    border-radius: 8px;
+}
+.right{
+	height:330px;
+	position:absolute;
+	left:85%;
+	transform: translateX(-78%);
+    border-radius: 50%;
+    flex-basis: 80%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left{
+    flex-basis: 70%;
+}
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+}
+#hire{
     text-decoration: none;
-    padding: 8px 35px;
-    background: #7d2ae8;
-    border-radius: 10px;
-    border: 2px solid #7d2ae8;
-    font-weight: 500;
-    transition: .3s;
+    background: rgb(151, 26, 151);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
 }
-.btn-talk:hover {
-    color: #7d2ae8;
-    background: transparent;
+#myp{
+    text-decoration: none;
+    color: #0f0f0f;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed rgb(0, 0, 0);
 }
-.home {
-    position: relative;
+.leftbio img{
+	height:330px;
+	position:absolute;
+	right:45%;
+	transform: translateX(-78%);
+    border-radius: 40%;
+    flex-basis: 40%;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+
+}
+.rightbio{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 0 40px;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+.rightbio h1{
+    font-size: 2rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: rgb(151, 26, 151);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.container1{
     width: 100%;
     height: 100vh;
-    background: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 30px 100px;
+    padding: 0 8%;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
 }
-.content {
-    max-width: 500px;
-    color: #555;
-}
-.content h2 {
-    font-size: 3em;
-}
-.content h2 span {
-    color: #7d2ae8;
-}
-.content h4 {
-    font-size: 2em;
-}
-.content p {
-    padding: 10px 0 40px 0;
-}
-.btn-group a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 40px;
-    background: #7d2ae8;
-    border-radius: 10px;
-    border: 2px solid #7d2ae8;
-    font-weight: 500;
-    transition: .3s;
-}
-.btn-group a:hover:nth-child(1) {
-    color: #7d2ae8;
-    background: transparent;
-}
-.btn-group a:nth-child(2) {
-    color: #7d2ae8;
-    background: transparent;
-    margin-left: 30px;
-    padding: 10px 30px;
-}
-.btn-group a:hover:nth-child(2) {
-    color: #fff;
-    background: #7d2ae8;
-}
-.social-icons {
-    position: absolute;
-    bottom: 50px;
-}
-.social-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background: #7d2ae8;
-    border-radius: 50%;
-    margin-right: 22px;
+.container1 h1{
     text-align: center;
-    line-height: 35px;
-    border: 1px solid #fff;
-    outline: 2px solid #7d2ae8;
-    transition: .3s;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
 }
-.social-icons a:hover {
-    transform: translateY(-5px);
+.container1 h1::after{
+    content: '';
+    background: rgb(151, 26, 151);
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-40%);
 }
-.social-icons a i {
-    color: #fff;
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.service{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s ;
+}
+.service i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:rgb(151, 26, 151) ;
+}
+.service h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.service:hover{
+    background: rgb(151, 26, 151);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+.service:hover i{
+    color: #ffffff;
 }
