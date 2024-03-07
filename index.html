@@ -1,40 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,700&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,700&family=Kalam:wght@700&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,700&family=Dancing+Script:wght@700&family=Kalam:wght@700&family=Poppins&display=swap" rel="stylesheet">"
+
 </head>
 <body>
     <header>
-        <h2 class="logo"><span>J</span>oe.</h2>
-        <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-        <a href="#" class="btn-talk">Let's Talk</a>
-    </header>
-    <section class="home">
-        <div class="content">
-            <h2>Hi, I'm <span>Suman Basfore</span></h2>
-            <h4>Frontend Developer</h4>
-            <p>I have been working as a web developer for quite some time now. I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity. </p>
-            <div class="btn-group">
-                <a href="#">Hire Me</a>
-                <a href="#">See Projects</a>
+        <nav>
+            <div class="logo">Suman Basfore</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact </a>
+                <a href="#">Hire me</a>
+
+                <i class="fa fa-search"></i>
+                <i class="fa fa-moon-o"></i>
             </div>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </nav>
+        <div class="container">
+            <div class="left">
+                <h2>Hello,</h2>
+                <h2>I'm Suman</h2>
+                <h1>Web Developer</h1>
+                <div class="h">
+                    <a href="#" id="hire">Hire me</a>
+                    <a href="img/Resume.pdf" download="Suman Basfore Resume">
+                    <a href="#" id="myp">Download Resume</a>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/img4.jpg" alt="right" class="right">
+
+                
             </div>
         </div>
+    </header>
+    
+    <section id="bio">
+        <div class="leftbio">
+            <img src="img/img5.jpg" alt="leftbio" class="leftbio">
+        </div>
+<div class="rightbio">
+    <div>
+        <p>MY BIOGRAPHY</p>
+        <h1>A Web Developer and Designer</h1>
+        <p>Aspiring beginner-level Web developer with a good foundation in HTML,CSS and JavaAcript, currently honoring my skills to craft immersive digital experience.</p>
+        <hr>
+    </div>
+    <div class="info">
+        <div>
+            <p><b>Name:</b> Suman Basfore</p>
+            <p><b>Email:</b> suman.b.0221@inspiria.edu.in</p>
+        </div>
+        <div>
+            <p><b>From:</b> Siliguri, India</p>
+            <p><b>Phone:</b> +91 7866967695</p>
+        </div>
+    </div>
+    <div id="follow">
+        <p><b>Follow me on:</b>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fab fa-linkedin-sqare"></i>
+        </p>
+    </div>
+</div>
     </section>
+    <div class="container1">
+        <h1>What Services I provide for you?</h1>
+        <div class="row">
+            <div class="service">
+                <i class="fa fa-laptop"></i>
+                <h2>Web Design</h2>
+                <p> I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-line-chart"></i>
+                <h2>Ui / Ux  Design</h2>
+                <p>I'm a UX/UI Designer with a background in Psychology, which gives me a unique edge in empathizing with users and improving their experience through design. My research experience has refined my problem-solving skills and user insights.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-copy"></i>
+                <h2>Content Writing</h2>
+                <p>I am adept at meticulously researching any topic given and I work to produce original yet engaging prose for my clients. I also have plenty of experience in creating well-optimized, search-engine friendly content for clients who want to increase their online traffic and visibility.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-bar-chart"></i>
+                <h2>Web Developement</h2>
+                <p> I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-camera"></i>
+                <h2>Photography</h2>
+                <p>A professional photographer with 20 years of experience capturing moments and memories that last a lifetime. With a keen eye for detail and a passion for creating beautiful images. </p>
+            </div>
+            <div class="service">
+                <i class="fa fa-area-chart"></i>
+                <h2>SEO</h2>
+                <p>I am confident that my skills and experiences make me a strong candidate for the SEO Content Writer position at your company. I have been working as a content writer for a few years now. I have written a lot of articles and blog posts on various topics. I know how to do keyword research and use SEO tools.</p>
+            </div>
+        </div>
+    </div>
+    
+   
+       
 </body>
-</html>                                                             
+</html>
